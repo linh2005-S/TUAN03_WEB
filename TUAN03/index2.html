@@ -9,7 +9,10 @@
             font-family: 'Times New Roman', Times, serif;
             text-align: center;
             background-color: rgb(222, 246, 252);
-           
+         }
+         form{
+            display: flex;
+            justify-content: center;
          }
          .card{
             display: flex;
@@ -22,7 +25,7 @@
             width: 300px;
          }
          .box{
-            display: flex;
+            display: block;
             border: 1px solid;
             background-color: rgb(248, 198, 229);
             margin: 2px;
@@ -35,6 +38,7 @@
 </head>
 <body>
     <h1>Danh sách môn học yêu thích</h1>
+    <form>
     <div class="card">
             <div class="box"> Cơ Sở Dữ Liệu</div>
             <div class="box">Triết Học Mác-Lênin</div>
@@ -43,5 +47,6 @@
             <div class="box">Triết Học Mác-Lênin</div>
             <div class="box">Chủ Nghĩa Xã Hội</div>
     </div>
+    </form>
 </body>
 </html>
