@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+           font-family: 'Times New Roman', Times, serif;
+            text-align: center;
+            background-color: rgb(180, 213, 238);
+            padding: 10px; 
+        }
+        .login-box{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        input{
+            border-radius: 10px;
+            width: 30%;
+            padding: 7px;
+        }
+        button{
+            border-radius: 20px;
+            padding: 8px;
+        }
+        .login-box button:hover {
+            background: rgb(246, 92, 92);
+        }
+        .background{
+            background: radial-gradient(circle at center, #ff9a9e, #fae1c4, #dafac4);
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            width: 500px;
+            height: 300px;
+        }
+    </style>
+</head>
+<body>
+    <div class="background">
+        <div class="login-box">
+        <h2>Mẫu Đăng Nhập</h2>
+        <p>Tên đăng nhập</p>
+            <input type="text">
+            <p>Mật khẩu</p>
+                <input type="text">
+        <p><button>Đăng nhập</button> </p>
+        </div>
+    </div>
+</body>
+</html>
