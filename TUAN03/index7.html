@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        font-family: 'Times New Roman', Times, serif;
+        background-color: #f1cce8;
+        padding: 20px;
+        text-align: center;
+      }
+      H1{ 
+        background-color: antiquewhite;
+        border-radius: 20px;}
+      .gallery {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        width: max-content;
+        margin: 0 auto;
+      }
+      .gallery img {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 20px;
+        box-shadow: 10px 2px 5px rgba(0, 0, 0, 0.597);
+      }
+      @media (max-width: 900px) {
+        .gallery {
+          grid-template-columns: repeat(2, 1fr);
+        }
+      }
+      @media (max-width: 600px) {
+        .gallery {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>THƯ VIỆN ẢNH</h1>
+    <div class="gallery">
+      <img src="HINHANH/ảnh2.jfif" alt="Ảnh 1" />
+      <img src="HINHANH/ảnh3.jfif" alt="Ảnh 2" />
+      <img src="HINHANH/ảnh4.jfif" alt="Ảnh 3" />
+   
+    </div>
+  </body>
+</html>
